@@ -1,0 +1,2 @@
+[console_scripts]
+cleanreport = cleanreport.cli:main

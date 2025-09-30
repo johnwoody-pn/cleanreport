@@ -1,0 +1,19 @@
+mode: auto
+
+rules:
+  drop_threshold_missing_col: 0.95
+
+categorical:
+  impute: "__MISSING__"
+  standardize_case: lower
+
+pipeline:
+  - drop_empty_like
+  - deduplicate_rows
+  - type_coercion
+  - impute_numeric
+  - impute_categorical
+
+ai:
+  schema_only: true        
+  sample_head_rows: 0 

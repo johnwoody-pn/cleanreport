@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: cleanreport
+Version: 0.0.1
+Summary: Data quality & cleaning pipline with YAML configurable steps
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: pyyaml>=6.0
